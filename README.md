@@ -2,7 +2,7 @@
 
 This is an example implementation of the LRGCPND model.
 
-## Environment
+## Environment Settings
 
 package | version
 :--:|:--:
@@ -18,7 +18,7 @@ cudatoolkit     |   10.2
 
 ### generate samples for k-fold CV (necessary for the first time)
 
-The randomly generated triples will be saved in ``/data/sample``.
+The randomly generated triples will be saved in ``/data/samples``.
 
 ### run (train and test)
 
