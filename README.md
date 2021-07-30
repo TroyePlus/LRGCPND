@@ -4,14 +4,14 @@ This is an example implementation of the LRGCPND model.
 
 ## Environment Settings
 
-package | version
-:--:|:--:
+Requirement | Version
+:--|--:
 python          |   3.8
 numpy           |   1.20
 pandas          |   1.2
 scipy           |   1.6
 scikit-learn    |   0.24
-torch           |   1.8
+PyTorch           |   1.8
 cudatoolkit     |   10.2
 
 ## Usage
@@ -39,6 +39,8 @@ optional arguments:
 ```
 
 ### Generate samples for k-fold CV (necessary for the first time)
+
+``python split.py``
 
 The randomly generated triples will be saved in ``/data/samples``.
 
