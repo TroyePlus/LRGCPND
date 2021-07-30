@@ -135,6 +135,8 @@ def load_and_test(str_time):
     model_path_base = '../model'
 
     args = load_args(str_time)
+    args.have_trained = True
+    args.time = str_time
     avg_res = defaultdict(int)
 
     for i in range(args.fold):
