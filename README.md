@@ -52,7 +52,7 @@ or if you'd like to save the models:
 
 ``python run.py --save_models``
 
-We use timestamps to mark models and corresponding results.
+Be aware that we use timestamps to mark models and corresponding results.
 
 ### Evaluate (load and test)
 
