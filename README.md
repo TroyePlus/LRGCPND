@@ -60,4 +60,4 @@ Be aware that we use timestamps to mark models and corresponding results.
 
 where ``{str_time}`` is the timestamp of your trained model.
 
-## Cite
+## Citation
